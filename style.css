@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.YT {
+    border-radius: 3vh;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+
+/* Intro Page */
+
+@font-face {
+    font-family: twd_logo;
+    src: url(fonts/twd_logo.ttf);
+}
+
+.intro_back {
+    width: auto;
+    height: 100vh;
+    background-image: url(images/rick_intro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_text_div {
+    background: transparent;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: left;
+    align-items: left;
+    border-radius: 10%;
+    margin: 0 0 0 -38vw;
+}
+
+.intro_text {
+    transition: 1s;
+    color: white;
+    text-decoration: none;
+}
+
+.intro_text:hover {
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+.intro_text_1 {
+    font-size: 6vh;
+    font-family: serif;
+    padding-left: 13vh;
+}
+
+.intro_text_2 {
+    font-size: 15vh;
+    font-family: twd_logo;
+}
+/* navbar */
+
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+.navbar_flex {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+    background-color: blue;
+    column-gap: 3vw;
+    background-color: black;
+    font-size: 1.3vw;
+    font-family: roboto;
+    border-radius: 0 0 10vh 10vh;
+    transition: 0.5s;
+}
+
+.navbar_back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10vh;
+    width: 7vw;
+    height: 4vh;
+    transition: 0.5s;
+}
+
+
+/*
+.navbar:hover {
+    width: 100%;
+    border-radius: 0;
+}
+*/
+
+.navbar_item {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    width:100%;
+    text-align:center;
+    border-radius:0.3vw;
+}
+
+.navbar_item:hover{
+    cursor: pointer;
+    box-shadow: inset 7vw 0 0 0 white;
+    color:black;
+
+}
+
+.navbar_item_on {
+    box-shadow: inset 7vw 0 0 0 white;
+    color:black;
+}
+
+.intro_div_small {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+.intro_the_small {
+    font-family: serif;
+    font-size: 1.5vh;
+    margin: 0 0 0 1vh;
+    color:white;
+}
+
+.intro_wd_small {
+    font-family: twd_logo;
+    font-size: 2vh;
+    color:white;
+}
+
+.navbar_item:hover .intro_the_small {
+    color:black;
+}
+
+.navbar_item:hover .intro_wd_small {
+    color:black;
+}
+
+/* Title */
+
+.web_collumn {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5vh;
+}
+
+.title_text {
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0 5vh 0;
+    font-size: 5vh;
+    font-family: serif;
+}
+
+/* Season Flex */
+
+.web_column {
+    margin: 0 5vh 0 5vh;
+}
+
+.season_title {
+    font-size: 3vh;
+}
+
+.season {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10vh;
+}
+
+.season_image {
+    flex-grow: 1;
+    width: 100vh;
+    height: 50vh;
+    border-radius: 10vh;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 0.2s;
+}
+
+.season_image:hover {
+    transform: scale(120%);
+}
+
+.season_paragraph {
+    width: 54vh;
+    font-family: serif;
+    font-size: 2vh;
+    flex-grow: 2;
+}
+
+/* Characters Table */
+
+.characters_table {
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.character_img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0.5vh 1vh 0.5vh 1vh;
+    width: 18vw;
+    height: 35vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10vh;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.character_img:hover {
+    transform: scale(130%);
+    cursor: pointer;
+}
+
+.character_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 8vh;
+    width: 15vw;
+    margin: 0 0 4vh 0;
+    border-radius: 10vh;
+    color: white;
+    font-size: 3vh;
+    font-family: roboto;
+}
+
+/* Galerie */
+
+
+.galerie {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.gallery_image {
+    margin: 1vh 1vw 1vh 1vw;
+    width: 48vw;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 5vh;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 0.3s;
+}
+
+.gallery_image:hover {
+    transform: scale(125%);
+}
+
+/* Episodes */
+
+.episodes_parent {
+    display:flex;
+    justify-content:center;
+}
+
+.episodes {
+    width: 80vw;
+    border-collapse: collapse;
+    margin: 10vh 0 0 0;
+    border-collapse:collapse;
+    border:1px solid;
+    border-color:white;
+}
+
+table.episodes td, th{
+    text-align: center;
+    padding:1vh 1vw 1vh 1vw;
+}
+
+table.episodes th {
+    text-align: start;
+    background-color:white;
+    color:black;
+}
+
+table.episodes tr:nth-child(even){
+    background-color:rgba(53, 53, 53, 0.8);
+}
+
+table.episodes tr:nth-child(odd) {
+    background-color:rgba(66, 66, 66, 0.8);
+}
+/* Other */
+
+.other {
+    width:80vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin:0 10vw 0 10vw;
+}
+
+.quote {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow:column nowrap;
+    font-family:arial;
+    color:white;
+    font-size:2vh;
+    position:relative;
+    
+}
+
+.quote_character {
+    color:rgba(199, 199, 199, 0.85);
+}
+
+.quote_1 {
+    transform: rotate(20deg);
+    left:20vw;
+}
+
+.quote_2 {
+    left:-22vw;
+}
