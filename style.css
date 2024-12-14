@@ -284,7 +284,11 @@ body {
 }
 
 .gallery_image:hover {
-    transform: scale(200%);
+    cursor:pointer;
+}
+
+.gallery_image:active {
+    transform:scale(200%);
 }
 
 /* Episodes */
