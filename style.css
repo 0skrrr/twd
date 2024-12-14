@@ -328,7 +328,7 @@ table.episodes tr:nth-child(odd) {
 /* Other */
 
 .other {
-    width:80vw;
+    width:100vw;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -369,4 +369,9 @@ table.episodes tr:nth-child(odd) {
 .quote_4{
     left:18vw;
     transform:rotate(-38deg);
+}
+
+.quote_5{
+    left:60vw;
+    transform:rotate(30);
 }
