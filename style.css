@@ -360,7 +360,7 @@ table.episodes tr:nth-child(odd) {
     }
 
     0% {
-        
+
     }
 }
 .quote_character {
@@ -397,7 +397,7 @@ table.episodes tr:nth-child(odd) {
 
 .quote_5{
     left:25vw;
-    transform:rotate(30deg);
+    transform:rotate(-30deg);
     animation-delay:13s;
     animation-iteration-count: infinite;
 }
