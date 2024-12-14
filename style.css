@@ -351,15 +351,11 @@ table.episodes tr:nth-child(odd) {
 
 @keyframes quoteanim {
     0% {
-
-    }
-
-    50% {
         left:0;
         transform:rotate(0deg);
     }
 
-    0% {
+    100% {
 
     }
 }
