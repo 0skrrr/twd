@@ -333,7 +333,6 @@ table.episodes tr:nth-child(odd) {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    margin:0 10vw 0 10vw;
 }
 
 .quote {
@@ -345,6 +344,7 @@ table.episodes tr:nth-child(odd) {
     color:white;
     font-size:2vh;
     position:relative;
+    margin: 5vh 0 5vh 0;
     
 }
 
@@ -359,5 +359,5 @@ table.episodes tr:nth-child(odd) {
 
 .quote_2 {
     left:-22vw;
-    transform:skew
+    transform:rotate(-12deg)
 }
