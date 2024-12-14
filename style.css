@@ -359,4 +359,5 @@ table.episodes tr:nth-child(odd) {
 
 .quote_2 {
     left:-22vw;
+    transform:skew
 }
