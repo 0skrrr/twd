@@ -372,6 +372,6 @@ table.episodes tr:nth-child(odd) {
 }
 
 .quote_5{
-    left:60vw;
+    left:30vw;
     transform:rotate(30);
 }
