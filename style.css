@@ -345,7 +345,6 @@ table.episodes tr:nth-child(odd) {
     font-size:2vh;
     position:relative;
     margin: 5vh 0 5vh 0;
-    
 }
 
 .quote_character {
@@ -358,6 +357,11 @@ table.episodes tr:nth-child(odd) {
 }
 
 .quote_2 {
-    left:-22vw;
+    left:-4vw;
     transform:rotate(-12deg)
+}
+
+.quote_3 {
+    left:-30vw;
+    transform:rotate(40deg)
 }
