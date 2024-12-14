@@ -275,7 +275,7 @@ body {
 
 .gallery_image {
     margin: 1vh 0.5vw 1vh 0.5vw;
-    width: 24vw;
+    width: auto;
     height: 40vh;
     object-fit: cover;
     border-radius: 5vh;
