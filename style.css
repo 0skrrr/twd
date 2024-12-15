@@ -347,6 +347,7 @@ table.episodes tr:nth-child(odd) {
     margin: 5vh 0 5vh 0;
     animation-name:quoteanim;
     animation-duration:3s;
+    animation-iteration-count: 1;
 }
 
 @keyframes quoteanim {
@@ -366,29 +367,29 @@ table.episodes tr:nth-child(odd) {
 .quote_1 {
     transform: rotate(20deg);
     left:20vw;
-    animation-iteration-count: 1;
 }
 
 .quote_2 {
     left:-4vw;
     transform:rotate(-12deg);
-    animation-iteration-count: 1;
 }
 
 .quote_3 {
     left:-30vw;
     transform:rotate(40deg);
-    animation-iteration-count: 1;
 }
 
 .quote_4{
     left:18vw;
     transform:rotate(-38deg);
-    animation-iteration-count: 1;
 }
 
 .quote_5{
     left:25vw;
     transform:rotate(-30deg);
-    animation-iteration-count: 1;
+}
+
+.quote_6 {
+    left:-40vw;
+    transform:rotate(-30deg);
 }
