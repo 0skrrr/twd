@@ -102,7 +102,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10vh;
-    width: 7vw;
+    width: 8vw;
     height: 3vh;
     transition: 0.5s;
 }
@@ -126,13 +126,13 @@ body {
 
 .navbar_item:hover{
     cursor: pointer;
-    box-shadow: inset 7vw 0 0 0 white;
+    box-shadow: inset 8vw 0 0 0 white;
     color:black;
 
 }
 
 .navbar_item_on {
-    box-shadow: inset 7vw 0 0 0 white;
+    box-shadow: inset 8vw 0 0 0 white;
     color:black;
 }
 
@@ -232,7 +232,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin: 0.5vh 1vh 0.5vh 1vh;
+    margin: 0.5vh 0.8vh 0.5vh 0.8vh;
     width: 18vw;
     height: 35vh;
     object-fit: cover;
