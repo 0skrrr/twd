@@ -312,10 +312,22 @@ table.episodes td, th{
     padding:1vh 1vw 1vh 1vw;
 }
 
-table.episodes th {
+table.episodes tr {
     text-align: start;
     background-color:white;
     color:black;
+}
+
+table.episodes th {
+    text-align: start;
+    background-color:black;
+    color:white;
+}
+
+table.episodes tr:hover {
+        cursor: none;
+        box-shadow: inset 7vw 0 0 0 white;
+        color:black;
 }
 
 table.episodes tr:nth-child(even){
