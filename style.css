@@ -301,11 +301,11 @@ body {
 .episodes {
     width: 80vw;
     border-collapse: collapse;
-    margin: 10vh 0 0 0;
+    margin: 10vh 0 10vh 0;
     border-collapse:collapse;
     border:1px solid;
     border-color:white;
-    border-radius:0.3vw;
+    border-radius:1vw;
 }
 
 table.episodes td, th{
