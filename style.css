@@ -89,9 +89,9 @@ body {
     width: 100vw;
     height: 8vh;
     background-color: blue;
-    column-gap: 3vw;
+    column-gap: 4vw;
     background-color: black;
-    font-size: 4vh;
+    font-size: 3vh;
     font-family: roboto;
     border-radius: 0 0 10vh 10vh;
     transition: 0.5s;
