@@ -326,9 +326,10 @@ table.episodes tr:nth-child(odd) {
     background-color:rgba(66, 66, 66, 0.8);
 }
 
-table.episodes_parent tr:nth-of-type(odd) td:first-of-type {
-    /* Your styles here */
-    background-color: red; /* Example: light grey background for odd rows */
+table.episodes tr th:first-child,
+table.episodes tr td:first-child {
+    /* Style for the first column */
+    background-color: white; /* Light gray background */
 }
 
 /* Other */
