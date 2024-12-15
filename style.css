@@ -328,13 +328,13 @@ table.episodes tr:nth-child(odd) {
 
 table.episodes tr:hover {
     cursor: pointer;
-    box-shadow: inset 80vw 0 0 0 white;
+    box-shadow: inset 100vw 0 0 0 white;
     color:black;
 }
 
 table.episodes th:hover {
     cursor: pointer;
-    box-shadow: inset 80vw 0 0 0 black;
+    box-shadow: inset 100vw 0 0 0 black;
     color:white;
 }
 
