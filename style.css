@@ -327,7 +327,6 @@ table.episodes tr:nth-child(odd) {
 }
 
 table.episodes tr:hover {
-    cursor: none;
     box-shadow: inset 7vw 0 0 0 white;
     color:black;
 }
