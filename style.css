@@ -305,6 +305,7 @@ body {
     border-collapse:collapse;
     border:1px solid;
     border-color:white;
+    border-radius:0.3vw;
 }
 
 table.episodes td, th{
