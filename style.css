@@ -326,18 +326,6 @@ table.episodes tr:nth-child(odd) {
     background-color:rgba(66, 66, 66, 0.8);
 }
 
-table.episodes tr:hover {
-    cursor: pointer;
-    box-shadow: inset 100vw 0 0 0 white;
-    color:black;
-}
-
-table.episodes th:hover {
-    cursor: pointer;
-    box-shadow: inset 100vw 0 0 0 black;
-    color:white;
-}
-
 /* Other */
 
 .other {
