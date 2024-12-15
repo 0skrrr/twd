@@ -318,6 +318,13 @@ table.episodes th {
     color:black;
 }
 
+table.episodes tr:nth-child(even){
+    background-color:rgba(53, 53, 53, 0.8);
+}
+
+table.episodes tr:nth-child(odd) {
+    background-color:rgba(66, 66, 66, 0.8);
+}
 
 table.episodes tr:hover {
     cursor: none;
@@ -326,17 +333,8 @@ table.episodes tr:hover {
 }
 
 table.episodes th:hover {
-    cursor: none;
     box-shadow: inset 7vw 0 0 0 black;
     color:white;
-}
-
-table.episodes tr:nth-child(even){
-    background-color:rgba(53, 53, 53, 0.8);
-}
-
-table.episodes tr:nth-child(odd) {
-    background-color:rgba(66, 66, 66, 0.8);
 }
 
 /* Other */
