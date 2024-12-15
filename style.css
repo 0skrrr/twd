@@ -325,6 +325,10 @@ table.episodes tr:nth-child(even){
 table.episodes tr:nth-child(odd) {
     background-color:rgba(66, 66, 66, 0.8);
 }
+
+table.episodes tr:nth-of-type(odd) td:first-child {
+    background-color: #f0f0f0;
+}
 /* Other */
 
 .other {
