@@ -237,7 +237,7 @@ body {
     height: 35vh;
     object-fit: cover;
     object-position: center;
-    border-radius: 1vh;
+    border-radius: 3vh;
     background-size: cover;
     background-position: center;
     transition: 0.5s;
