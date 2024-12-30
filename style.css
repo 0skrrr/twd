@@ -28,7 +28,7 @@ body {
 .intro_back {
     width: auto;
     height: 100vh;
-    background-image: url(images/rick_intro.jpg);
+    background-image: url(images/hero_rick.webp);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
