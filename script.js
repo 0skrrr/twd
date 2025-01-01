@@ -1,4 +1,13 @@
 const arrow = document.getElementById('arrow');
-const season = document.getElementById('seasonOne');
+const target = document.getElementById('seasonOne');
 
-season.addEventListener ('click', ( =>))
+arrow.addEventListener ('click', () => {
+    if (target.style.display === 'none') {
+        target.style.display = 'flex';
+    }
+    
+    else {
+        target.style.display = 'none';
+    }
+
+});
