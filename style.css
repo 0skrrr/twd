@@ -199,12 +199,6 @@ body {
     transition: 0.2s;
 }
 
-.YT {
-    border-radius: 2vh;
-    width:100vh;
-    height:50vh;
-    width:auto;
-}
 
 .season_image:hover {
     transform: scale(120%);
@@ -390,4 +384,11 @@ table.episodes tr:nth-child(odd) {
 .quote_6 {
     left:-20vw;
     transform:rotate(-25deg);
+}
+
+.YT {
+    border-radius: 2vh;
+    width:100vh;
+    height:50vh;
+    width:auto;
 }
