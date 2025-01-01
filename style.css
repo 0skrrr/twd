@@ -209,7 +209,7 @@ body {
     flex-grow: 2;
 }
 
-#arrow {
+.arrow {
     display:flex;
     cursor:pointer;
     height:3vh;
@@ -218,11 +218,11 @@ body {
     object-fit:cover;
 }
 
-#target {
+.target {
     background-color: red;
     display:none;
     height:3vh;
-    width:auto;
+    width:3vh;
 }
 
 
