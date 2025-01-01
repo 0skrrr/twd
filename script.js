@@ -1,3 +1,4 @@
+console.log("funguj")
 const arrow = document.getElementById('arrow');
 const target = document.getElementById('seasonOne');
 
