@@ -212,11 +212,14 @@ body {
 #arrow {
     cursor:pointer;
     height:3vh;
+    width:auto;
     background-image: url(images/arrow_right.png);
 }
 
 #seasonOne {
     display:none;
+    height:3vh;
+    width:auto;
 }
 
 
