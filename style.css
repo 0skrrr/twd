@@ -107,14 +107,6 @@ body {
     transition: 0.5s;
 }
 
-
-/*
-.navbar:hover {
-    width: 100%;
-    border-radius: 0;
-}
-*/
-
 .navbar_item {
     color: white;
     text-decoration: none;
