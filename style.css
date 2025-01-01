@@ -210,7 +210,9 @@ body {
 }
 
 #arrow {
-
+    cursor:pointer;
+    height:3vh;
+    background-image: url(images/arrow_right.png);
 }
 
 #seasonOne {
