@@ -218,7 +218,8 @@ body {
 }
 
 #seasonOne {
-    display:none;
+    background-color: red;
+    display:block;
     height:3vh;
     width:auto;
 }
