@@ -1,11 +1,11 @@
 console.log("funguj")
 const arrow = document.getElementById('arrow');
-const seasonOne = document.getElementById('seasonOne');
+const target = document.getElementById('target');
 
 arrow.addEventListener('click', () => {
-    if (seasonOne.style.display === 'none' || seasonOne.style.display === '') {
-        seasonOne.style.display = 'block';
+    if (target.style.display === 'none' || target.style.display === '') {
+        target.style.display = 'block';
     } else {
-        seasonOne.style.display = 'none';
+        target.style.display = 'none';
     }
 });

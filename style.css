@@ -218,7 +218,7 @@ body {
     object-fit:cover;
 }
 
-#seasonOne {
+#target {
     background-color: red;
     display:none;
     height:3vh;
