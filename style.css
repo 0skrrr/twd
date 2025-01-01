@@ -85,9 +85,8 @@ body {
     align-items: center;
     width: 100vw;
     height: 8vh;
-    background-color: blue;
     column-gap: 3vw;
-    background-color: black;
+    background-color:rgba(53, 53, 53, 0.8);
     font-size: 2.7vh;
     font-family: roboto;
     border-radius: 0 0 10vh 10vh;
