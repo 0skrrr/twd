@@ -219,7 +219,7 @@ body {
 
 #seasonOne {
     background-color: red;
-    display:block;
+    display:none;
     height:3vh;
     width:auto;
 }
