@@ -1,4 +1,5 @@
-console.log("funguj")
+console.log("funguj");
+target.style.display === 'none';
 const arrow = document.getElementById('arrow');
 const target = document.getElementById('target');
 
