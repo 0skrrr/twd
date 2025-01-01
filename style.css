@@ -201,6 +201,7 @@ body {
 
 .YT {
     border-radius: 2vh;
+    width:100vh;
     height:50vh;
     width:auto;
 }
