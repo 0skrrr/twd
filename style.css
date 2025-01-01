@@ -213,8 +213,9 @@ body {
     display:flex;
     cursor:pointer;
     height:3vh;
-    width:auto;
+    width:3vh;
     background-image: url(images/arrow_right.png);
+    object-fit:cover;
 }
 
 #seasonOne {
