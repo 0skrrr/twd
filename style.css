@@ -201,7 +201,8 @@ body {
 
 .YT {
     border-radius: 2vh;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height:50vh;
+    width:auto;
 }
 
 .season_image:hover {
