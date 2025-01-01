@@ -8,4 +8,4 @@ arrow.addEventListener('click', () => {
     } else {
         seasonOne.style.display = 'none';
     }
-});;
+});
