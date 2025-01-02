@@ -1,6 +1,6 @@
 console.log("Funguj");
-var arrow = document.getElementsById("arrow");
-var target = document.getElementsById("target");
+var arrow = document.getElementById("arrow");
+var target = document.getElementById("target");
 
 target.classList.add("targetoff");
 
@@ -15,4 +15,4 @@ function functionone () {
         target.classList.add("targetoff");
         target.classList.remove("targeton");
     }
-}
+};
