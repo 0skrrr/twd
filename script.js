@@ -2,15 +2,17 @@ console.log("Funguj");
 var arrow = document.getElementsByClassName("arrow");
 var target = document.getElementsByClassName("target");
 
+target.classlist.add("targetoff");
 
+arrow.addEventListener("click", functionone);
 
-arrow.addEventListener("click", functionOne);
-
-function functionOne () {
-    if (target.style.display === "none") {
-        target.style.display = "block";
+function functionone () {
+    if (target.classList.contains("targetoff")) {
+        target.classList.add("targeton");
+        target.classList.remove("targetoff")
     }
     else {
-        target.style.display = "none";
+        target.classList.add("targetoff");
+        target.classList.remove("targeton");
     }
 }
