@@ -220,13 +220,16 @@ body {
 
 .target {
     background-color: red;
-    display:none;
     height:3vh;
     width:3vh;
 }
 
 .targeton {
     display:block;
+}
+
+.targetoff {
+    display:none;
 }
 
 
