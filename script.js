@@ -1,8 +1,8 @@
 console.log("Funguj");
-var arrow = document.getElementsByClassName("arrow");
-var target = document.getElementsByClassName("target");
+var arrow = document.getElementsById("arrow");
+var target = document.getElementsById("target");
 
-target.classlist.add("targetoff");
+target.classList.add("targetoff");
 
 arrow.addEventListener("click", functionone);
 
