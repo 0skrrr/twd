@@ -65,13 +65,8 @@ body {
     font-size: 15vh;
     font-family: twd_logo;
 }
+
 /* navbar */
-
-@font-face {
-    font-family: roboto;
-    src: url(fonts/Roboto-Regular.ttf);
-}
-
 .navbar_flex {
     display: flex;
     justify-content: center;
@@ -165,7 +160,7 @@ body {
     justify-content: center;
     margin: 5vh 0 5vh 0;
     font-size: 5vh;
-    font-family: serif;
+    font-family: roboto;
 }
 
 /* Season Flex */
@@ -204,7 +199,7 @@ body {
 
 .season_paragraph {
     width: 54vh;
-    font-family: serif;
+    font-family: roboto;
     font-size: 2vh;
     flex-grow: 2;
 }
@@ -236,7 +231,7 @@ body {
 /* Characters Table */
 
 .characters_table {
-    font-family: sans-serif;
+    font-family: roboto;
     width: 100vw;
 }
 
@@ -354,7 +349,7 @@ table.episodes tr:nth-child(odd) {
     justify-content:center;
     align-items:center;
     flex-flow:column nowrap;
-    font-family:arial;
+    font-family:roboto;
     color:white;
     font-size:2vh;
     position:relative;
