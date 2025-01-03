@@ -169,6 +169,11 @@ body {
     margin: 0 5vh 0 5vh;
     width:100%;
     height:auto;
+    display: flex;
+    justify-content: center;
+    font-size:5vh;
+    flex-flow:column nowrap;
+    column-gap:5vh;
 }
 
 .season_title {
@@ -177,11 +182,11 @@ body {
 
 .season {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     height: 100%;
     justify-content: flex-start;
     align-items: center;
-    column-gap: 10vh;
+    row-gap: 10vw;
 }
 
 .season_image {
