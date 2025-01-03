@@ -219,7 +219,7 @@ body {
     display:flex;
     cursor:pointer;
     height:100px;
-    width:100px;
+    width:auto;
     background-image: url(images/arrow_right.png);
     object-fit:scale-down;
 }
