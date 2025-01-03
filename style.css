@@ -220,7 +220,7 @@ body {
 #arrow {
     display:flex;
     cursor:pointer;
-    height:100%;
+    height:10vh;
     width:auto;
     background-image: url(images/arrow_right.png);
     background-size: contain;
