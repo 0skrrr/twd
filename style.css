@@ -221,7 +221,7 @@ body {
     display:flex;
     cursor:pointer;
     height:10vh;
-    width:auto;
+    width:10vh;
     background-image: url(images/arrow_right.png);
     background-size: contain;
 }
