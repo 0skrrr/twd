@@ -165,8 +165,10 @@ body {
 
 /* Season Flex */
 
-.web_column {
+.series_list {
     margin: 0 5vh 0 5vh;
+    width:100%;
+    height:auto;
 }
 
 .season_title {
