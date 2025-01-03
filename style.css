@@ -172,8 +172,9 @@ body {
     display: flex;
     justify-content: center;
     font-size:5vh;
-    flex-flow:column nowrap;
-    column-gap:5vh;
+    /* flex-flow:column nowrap;
+    */ 
+    row-gap:5vh;
 }
 
 .season_title {
@@ -184,9 +185,9 @@ body {
     display: flex;
     flex-flow: row nowrap;
     height: 100%;
-    justify-content: flex-start;
+    width:90vw;
+    justify-content: center;
     align-items: center;
-    row-gap: 10vw;
 }
 
 .season_image {
@@ -223,7 +224,7 @@ body {
     height:100px;
     width:auto;
     background-image: url(images/arrow_right.png);
-    object-fit:scale-down;
+    background-size: contain;
 }
 
 #target {
