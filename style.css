@@ -221,8 +221,8 @@ body {
 #arrow {
     display:flex;
     cursor:pointer;
-    height:10vh;
-    width:10vh;
+    height:1.28vw;
+    width:1.47vw;
     background-image: url(images/arrow_right.png);
     background-size: contain;
 }
